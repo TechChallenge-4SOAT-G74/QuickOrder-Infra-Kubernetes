@@ -7,7 +7,7 @@ spec:
     app: postgres
   type: NodePort
   ports:
-  - protocol: TCP
-    port: 5432
-    targetPort: 5432
-    nodePort: 31111
+    - protocol: TCP
+      port: 5432
+      targetPort: 5432
+      nodePort: 31111

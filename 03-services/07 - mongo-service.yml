@@ -4,10 +4,10 @@ metadata:
   name: mongo-service
 spec:
   selector:
-    app: mongodb
+    app: mongodb-svc
   type: NodePort
   ports:
-  - protocol: TCP
-    port: 27017
-    targetPort: 27017
-    nodePort: 31616
+    - protocol: TCP
+      port: 27017
+      targetPort: 27017
+      nodePort: 31616
